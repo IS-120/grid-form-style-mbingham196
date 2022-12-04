@@ -9,5 +9,6 @@
     "viewports",
     "violà",
     "walkthrough"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
