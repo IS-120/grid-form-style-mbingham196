@@ -29,9 +29,6 @@ main {
   max-width: 50rem;
 }
 
-section {
-}
-
 header nav ul {
   margin: 0;
 }
@@ -336,15 +333,6 @@ article {
   height: auto;
   justify-self: center;
 }
-
-.contact input {
-  grid-column: 1 / 2;
-}
-
-.contact .fieldset-wrapper label {
-  grid-column: 2 / 3;
-}
-
 .contact input[type="checkbox"],
 .contact input[type="radio"] {
   appearance: none;
@@ -390,7 +378,7 @@ article {
 
 .contact form > label,
 .contact form textarea {
-  padding: 5px;
+  /* padding: 5px; */
   font-size: 1rem;
 }
 
@@ -454,42 +442,27 @@ article {
   .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content;
     column-gap: 1rem;
     row-gap: 1.5rem;
   }
 
-  .contact .name {
-    grid-row: 1 / 2;
+  .contact form > label {
+    padding: 0;
+    margin: 0;
+    justify-self: end;
   }
 
-  .contact .email {
-    grid-row: 2 / 3;
-  }
-
-  .contact .month {
-    grid-row: 3 / 4;
-  }
-
-  .contact .first {
-    grid-column: 1 / 2;
-  }
-
-  .contact .second {
-    grid-column: 2 / 3;
-  }
-
-  .contact form label {
-    grid-column: 2 / 3;
+  .contact button {
+    grid-column-start: 2;
     justify-self: start;
   }
 
-  .contact input {
-    grid-column: 1 / 2;
+  .contact .name {
+    margin: 0;
   }
 
   .contact fieldset {
-    grid-column: 4 / 5;
+    grid-column-start: 2;
     display: grid;
     grid-template-columns: min-content 1fr;
   }
