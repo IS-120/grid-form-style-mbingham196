@@ -329,6 +329,10 @@ ul li {
   background-color: #224952;
 }
 
+.cardz {
+  display: none;
+}
+
 .card p {
   text-align: center;
 }
