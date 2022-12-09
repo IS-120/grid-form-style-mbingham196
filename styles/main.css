@@ -32,8 +32,8 @@ body {
 }
 
 main {
-  margin: none;
-  padding: 0 1rem;
+  margin: 0;
+  padding: 0;
   /* max-width: 50rem; */
 }
 
@@ -322,10 +322,6 @@ ul li {
 
 .card .image-wrapper {
   overflow: hidden;
-}
-
-video {
-  width: 100vw;
 }
 
 .card {
